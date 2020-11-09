@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import Projects from './components/Projects';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Home from './components/Home';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import SocialLinks from './components/SocialLinks';
+
 
 import './App.css';
 
@@ -13,7 +21,7 @@ class App extends Component {
         <Resume />
         <Contact />
         <SocialLinks />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
